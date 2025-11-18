@@ -1,0 +1,65 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: linear-gradient(180deg,#f6f6f6,#ffffff);
+}
+
+.login-card {
+  width: 360px;
+  padding: 28px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin: 0 0 18px 0;
+  font-size: 20px;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.google-btn img { width: 18px; height: 18px; }
+
+.divider {
+  margin: 14px 0;
+  color: #777;
+}
+
+.login-form { display: flex; flex-direction: column; gap: 12px; }
+.login-form label { display: flex; flex-direction: column; text-align: left; font-size: 13px; color: #333; }
+.login-form input {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.signin-btn {
+  margin-top: 4px;
+  padding: 10px 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-line { margin-top: 12px; font-size: 13px; color: #555; }
+.signup-line a { color: #111; text-decoration: underline; }
+
+.error { color: #b00020; background: #fff0f0; padding: 8px 10px; border-radius: 6px; margin-bottom: 10px; }

@@ -1,0 +1,68 @@
+/* Navbar Container */
+.navbar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background: linear-gradient(to bottom, #000000, #1a1a1a); /* Black shaded theme */
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Logo Image (size increased) */
+.nav-logo {
+  height: 150px;     /* Increased logo size */
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  filter: brightness(0) invert(1); 
+  /* Makes logo white — remove this line if your logo is already white */
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+/* Links Styling */
+.nav-links li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff; /* White text */
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; /* Gold hover for premium effect */
+  letter-spacing: 1px;
+}
+
+/* User text (when logged in) */
+.user-text {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Logout Button */
+.nav-logout {
+  background: #ffffff;
+  border: none;
+  padding: 7px 14px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-logout:hover {
+  background: #ffcc00;
+  color: black;
+}

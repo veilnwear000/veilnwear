@@ -1,0 +1,185 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8fb;
+  color: #1f2937;
+}
+
+/* ===== Header ===== */
+header {
+  background: linear-gradient(90deg, #007bff, #00b4d8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+header nav button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header nav button:hover {
+  color: #caf0f8;
+}
+
+header .bg-red-500 {
+  background: #e63946;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+header .bg-blue-600 {
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* ===== Section Containers ===== */
+.max-w-4xl, .max-w-3xl, .max-w-2xl, .max-w-md {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4 {
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+/* ===== Buttons ===== */
+button {
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.bg-blue-600 {
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+}
+
+.bg-blue-600:hover {
+  background-color: #0056b3;
+}
+
+.bg-gray-100 {
+  background-color: #e9ecef;
+  color: #333;
+  border-radius: 6px;
+}
+
+.bg-gray-100:hover {
+  background-color: #dee2e6;
+}
+
+/* ===== Card & Boxes ===== */
+.border {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: white;
+}
+
+.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.p-6 {
+  padding: 24px;
+}
+
+/* ===== Grid Layout ===== */
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ===== Text Colors ===== */
+.text-gray-500 {
+  color: #6c757d;
+}
+
+.text-gray-600 {
+  color: #495057;
+}
+
+.text-white {
+  color: white;
+}
+
+/* ===== Margin & Padding Utils ===== */
+.mt-4 { margin-top: 16px; }
+.mt-6 { margin-top: 24px; }
+.mt-10 { margin-top: 40px; }
+.mt-12 { margin-top: 48px; }
+.mb-3 { margin-bottom: 12px; }
+.mb-4 { margin-bottom: 16px; }
+.mb-6 { margin-bottom: 24px; }
+.py-12 { padding-top: 48px; padding-bottom: 48px; }
+.px-6 { padding-left: 24px; padding-right: 24px; }
+
+/* ===== Input & Textarea ===== */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #023e8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* ===== Special Section: Loading ===== */
+.text-xl {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0077b6;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
