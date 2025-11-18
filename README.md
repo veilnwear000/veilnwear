@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Veilnwear
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Project Overview
 
-## Available Scripts
+**Project Name:** Veilnwear  
+**Type:** E-commerce Clothing Website  
+**Theme:** Aesthetic, Black & White, Minimalist Fashion  
+**Objective:** To sell premium aesthetic and streetwear clothing online under the brand Veilnwear.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 2. Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User authentication (Login / Signup)
+- Product listing with filters and categories
+- Product details page (images, sizes, description, price)
+- Cart and checkout system with Stripe payment
+- Admin panel for adding/editing products
+- Fully responsive design for mobile and desktop
+- Aesthetic black & white minimalist UI
+- Order management (admin side)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 3. Target Audience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fashion-forward youth (ages 16–30)
+- Interested in streetwear & minimalist clothing
+- Social media active customers
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 4. Design Guidelines
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Primary Colors:** Black (#000), White (#fff), Light Gray (#ccc)
+- **Font Family:** Poppins / Montserrat
+- **Layout Style:** Clean grid-based layout
+- **Image Style:** High-quality, neutral tones, full-width product shots
+- **Animations:** Soft fade-ins / smooth scrolls (Framer Motion or GSAP)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 5. Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Component       | Technology          | Purpose               |
+| --------------- | ------------------- | --------------------- |
+| Frontend        | React               | UI and routing        |
+| Styling         | CSS                 | Responsive design     |
+| Backend         | Firebase            | Authentication        |
+| Database        | MongoDB             | Database              |
+| Payments        | Stripe              | Secure checkout       |
+| CMS (optional)  | Sanity / Contentful | Product management    |
+| Hosting         | Vercel , Render     | Fast, free deployment |
+| Version Control | Git + GitHub        | Code management       |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 6. Website Pages Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Page           | Path            | Description                                       |
+| -------------- | --------------- | ------------------------------------------------- |
+| Home           | /               | Brand intro, featured collections, call-to-action |
+| Shop           | /shop           | All products displayed in a grid layout           |
+| Product Detail | /product/[id]   | Individual product view                           |
+| Cart           | /cart           | View and edit items before checkout               |
+| Checkout       | /checkout       | Stripe payment integration                        |
+| Login / Signup | /login, /signup | User authentication                               |
+| Admin Panel    | /admin          | Manage products & orders                          |
+| About          | /about          | Brand story and mission                           |
+| Contact        | /contact        | Form and brand contact info                       |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 7. Future Updates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Add product reviews & ratings
+- Add AI outfit recommendation feature
+- Add wishlist / favorites
+- Launch mobile app (React Native)
+- Connect social media feed (Instagram integration)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 8. Contact & Credits
 
-### Analyzing the Bundle Size
+**Developers:** Puspendra Singh Gahlot, Ananya Khandelwal, Roop Singh, Pawan Kumar Saini  
+**Brand:** Veilnwear  
+**Email:** puspendrasinghgahlot@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
