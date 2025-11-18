@@ -83,8 +83,8 @@
 
 ## 8. Contact & Credits
 
-**Developers:** Puspendra Singh Gahlot, Ananya Khandelwal, Roop Singh, Pawan Kumar Saini  
+**Developers:** Ananya Khandelwal, Puspendra Singh Gahlot, Roop Singh, Pawan Kumar Saini  
 **Brand:** Veilnwear  
-**Email:** puspendrasinghgahlot@gmail.com
+**Email:** veilnwear000@gmail.com
 
 ---
